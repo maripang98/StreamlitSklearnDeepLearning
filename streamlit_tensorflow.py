@@ -5,7 +5,7 @@ from PIL import Image
 import os
 
 # Definisikan jalur model
-model_path = r'D:\KULIAH\Semester 5\ASDOS\Modul 5\Ver 1 Notebook Streamlit and Pickle Deep Learning\Ver 1 Notebook Streamlit and Pickle Deep Learning\best_model_tf.h5'
+model_path = r'best_model_tf.h5'
 
 # Muat model
 if os.path.exists(model_path):
